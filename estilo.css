@@ -1,0 +1,117 @@
+*{
+    font-family: sans-serif;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.nav{ display: grid
+    border solid 3px    
+
+
+
+
+}
+body{
+    background-color: #fafcfce7;
+}
+
+h2,h3,h4,h5,h6 {
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.titulo{
+    
+    display:inline-block;
+
+    color: rgb(250, 8, 8);
+    
+}
+
+.borde-rojo{
+    border:dotted 2px rgb(151, 144, 144);
+    background-color: rgb(34, 10, 10);
+
+}
+
+ul li {
+    color:rgb(19, 28, 150);
+    background-color: rgb(248, 204, 204);
+    margin: 5px;
+    padding: 10px 30px;
+    
+
+}
+nav{
+    display:inline-block;
+}
+.padre-flex {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: auto 2vw
+
+
+}
+.menu-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+li:hover{
+    border-left: solid 10px orangered;
+}
+
+.transicion{
+    transition: width 2s;
+}
+.transicion:hover{
+    width: 1000px;
+    height: 90vh;
+    background-image: url(https://decidesoluciones.es/wp-content/uploads/2020/04/Log%C3%ADstica-Inversa-1024x576.png)
+
+
+
+}
+.mover{
+    transform: translate(600px,300px);
+}
+
+.texto-animado{
+    animation-name: texto;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+
+
+}
+
+@keyframes texto {
+    from {
+        transform: translateX(1300px);
+
+
+    }
+    to {
+transform: translate(0);
+    }
+
+}
+
+
+
+.servicios__content {
+    width: 20rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .imagen_orden{
+    display:block;
+    margin:0px auto;
+
+  }
